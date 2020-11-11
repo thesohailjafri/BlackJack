@@ -131,4 +131,15 @@ h2 {
         border: 3px black solid;
         padding: 0.625em;
     }
+    .btn {
+        background-color: black;
+        color: white;
+        border: 0.125em white solid;
+        border-radius: 0.625em;
+        margin: 0.625em;
+        padding: 0.625em;
+        font-weight: 200;
+        font-size: 0.6em;
+        width: 6.25em;
+    }
 }
