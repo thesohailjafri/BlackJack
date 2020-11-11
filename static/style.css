@@ -142,4 +142,12 @@ h2 {
         font-size: 0.6em;
         width: 6.25em;
     }
+    .container1 img {
+        height: 7em;
+        width: auto;
+        padding: 0.3em;
+    }
+    h2 {
+        font-size: 1em;
+    }
 }
