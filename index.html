@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/images/icon.png">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div class="container-main">
+        <h1 class="head one">BlackJack</h1>
+        <div class="container1">
+            <div class="play-container user">
+                <h2>Your Score : <span id="user-span">0</span></h2>
+                <div class="card-container" id="user-container">
+
+                </div>
+            </div>
+            <div class="play-container">
+                <h2>Dealer Score : <span id="bot-span">0</span></h2>
+                <div class="card-container" id="bot-container">
+
+                </div>
+            </div>
+
+        </div>
+        <h2 class="flex_box">
+            <span id="play-message">Click Hit To Start</span>
+        </h2>
+        <div class="flex_box container2">
+            <button type="button" class="btn" id="btn-hit">HIT</button>
+            <button type="button" class="btn" id="btn-stand">STAND</button>
+            <button type="button" class="btn" id="btn-deal">DEAL</button>
+        </div>
+        <div class="flex_box container3">
+            <table class="scoreboard" id="scoreboard">
+                <tr>
+                    <th>WIN</th>
+                    <th>LOST</th>
+                    <th>TIE</th>
+                    <th>TOTAL ROUNDS</th>
+                </tr>
+                <tr>
+                    <th><span id="win">0</span></th>
+                    <th><span id="lost">0</span></th>
+                    <th><span id="tie">0</span></th>
+                    <th><span id="total">0</span></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="static/scirpt.js"></script>
+</body>
+
+</html>

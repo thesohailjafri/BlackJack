@@ -1,0 +1,134 @@
+/*10px: 0.625em;
+$15px: 0.9375em;
+$20px: 1.25em;*/
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container-main {
+    width: 90%;
+    margin: auto;
+    margin-top: 1.24em;
+    padding: 1.25em;
+    border-radius: 0.625em;
+    background-color: white;
+    color: black;
+}
+
+.head {
+    color: white;
+    background-color: green;
+    text-align: center;
+    padding: 0.625em;
+    border-radius: 0.31em;
+    border: 3px black solid;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    letter-spacing: 0.15ex;
+    font-size: 2em;
+}
+
+.flex_box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: green;
+    border-radius: 0.625em;
+    border: 3px black solid;
+    padding: 0.625em;
+    color: white;
+}
+
+.container1 {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.play-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 45%;
+    background-color: green;
+    border-radius: 0.625em;
+    border: 3px black solid;
+    padding: 0.625em;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container1 img {
+    height: 9em;
+    width: auto;
+    padding: 0.5em;
+}
+
+.container2 {
+    margin-bottom: 1.25em;
+}
+
+.scoreboard {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    border: 0.125em white solid;
+    border-radius: 0.625em;
+    padding: 0.625em;
+}
+
+.scoreboard th {
+    width: 30%;
+    padding: 0.625em;
+    font-size: 1.5em;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 0.125em white solid;
+    border-radius: 0.625em;
+    margin: 0.625em;
+    padding: 0.625em;
+    font-weight: 200;
+    font-size: 1.5em;
+    width: 6.25em;
+}
+
+@media (max-width:600px) and (min-width: 200px) {
+    .scoreboard {
+        font-size: 0.6em;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .user {
+        margin-bottom: 1.25em;
+    }
+    .play-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        background-color: green;
+        border-radius: 0.625em;
+        border: 3px black solid;
+        padding: 0.625em;
+    }
+}
