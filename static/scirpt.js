@@ -1,5 +1,5 @@
 let bjgame = {
-    'msg': { 'hit': "Click stand to stop", 'stand': "Click deal to start new round", 'reset': "Click hit to start" },
+    'msg': { 'hit': "Click stand to stop", 'stand': "Click reset to start new round", 'reset': "Click hit to start" },
     'status': { 'win': 0, 'lost': 0, 'tie': 0, 'total': 0 },
     'scoreboard': { 'win': '#win', 'lost': '#lost', 'tie': '#tie', 'total': '#total' },
     'user': { 'scorespan': '#user-span', 'div': '#user-container', 'score': 0 },
