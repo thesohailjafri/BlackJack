@@ -137,6 +137,8 @@ function showScore(f_user) {
 
 function hitMessage() {
     document.querySelector(msg).textContent = c_msg['hit'];
+    document.querySelector(msg_result).textContent = "Gaming in progress";
+
 }
 /////
 
@@ -220,6 +222,8 @@ function resetSpan(player) {
 
 function resetMessage() {
     document.querySelector(msg).textContent = c_msg['reset'];
+    document.querySelector(msg_result).textContent = "Gaming in progress";
+
 }
 
 /////

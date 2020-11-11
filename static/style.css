@@ -112,6 +112,14 @@ h2 {
 }
 
 @media (max-width:600px) and (min-width: 200px) {
+    .container-main {
+        margin: 0.2em;
+        padding: 0.25em;
+    }
+    .flex_box {
+        padding: 0.25em;
+        margin: 0.2em;
+    }
     .scoreboard {
         font-size: 0.6em;
         display: inline-flex;
@@ -129,7 +137,8 @@ h2 {
         background-color: green;
         border-radius: 0.625em;
         border: 3px black solid;
-        padding: 0.625em;
+        padding: 0.25em;
+        margin: 0px;
     }
     .btn {
         background-color: black;
@@ -143,9 +152,14 @@ h2 {
         width: 6.25em;
     }
     .container1 img {
-        height: 7em;
+        height: 4em;
         width: auto;
         padding: 0.3em;
+    }
+    .head {
+        padding: 0.25em;
+        border-radius: 0.31em;
+        font-size: 1.5em;
     }
     h2 {
         font-size: 1em;
