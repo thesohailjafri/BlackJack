@@ -113,7 +113,7 @@ h2 {
 
 @media (max-width:600px) and (min-width: 200px) {
     .container-main {
-        margin: 0.2em;
+        margin: auto;
         padding: 0.25em;
     }
     .flex_box {
